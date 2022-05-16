@@ -1,0 +1,29 @@
+section {
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000;
+  margin-top: 190px;
+  margin-left: 650px;
+  box-shadow: inset 20px 20px 5px rgba(136, 136, 136, 0.424),
+    20px 15px 10px #888;
+  padding-top: 0;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  font-size: 40px;
+  line-height: 70px;
+  color: brown;
+}
+li {
+  padding-left: 70px;
+  border: 0px solid #888;
+  box-shadow: 10px 7px 5px #000;
+}
+li:hover {
+  transform: scale(0.9);
+  color: gold;
+  font-style: oblique;
+  transition: 0.8s;
+}
